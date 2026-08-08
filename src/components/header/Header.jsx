@@ -14,16 +14,16 @@ function Header() {
           <a href="#" className="header__link">
             Home
           </a>
-          <a href="#" className="header__link">
+          <a href="#menu" className="header__link">
             Menu
           </a>
-          <a href="#" className="header__link">
+          <a href="#gallery" className="header__link">
             Gallery
           </a>
-          <a href="#" className="header__link">
+          <a href="#visit-us" className="header__link">
             Visit-us
           </a>
-          <a href="#" className="header__link">
+          <a href="#contact" className="header__link">
             Contact
           </a>
         </div>
