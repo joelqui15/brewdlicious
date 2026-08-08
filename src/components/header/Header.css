@@ -1,0 +1,24 @@
+.header {
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 24px 80px;
+}
+
+.header__logo {
+  max-width: 200px;
+}
+
+.header__links {
+  display: flex;
+  gap: 32px;
+}
+
+.header__link {
+  list-style: none;
+  text-decoration: none;
+  color: #6b6462;
+  scroll-behavior: smooth;
+}
