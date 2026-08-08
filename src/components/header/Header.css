@@ -5,10 +5,12 @@
   align-items: center;
   background-color: #fff;
   padding: 24px 80px;
+  font-family: "schibsted-grotesk", sans-serif;
 }
 
 .header__logo {
   max-width: 200px;
+  cursor: pointer;
 }
 
 .header__links {
@@ -21,4 +23,26 @@
   text-decoration: none;
   color: #6b6462;
   scroll-behavior: smooth;
+  transition: transform 0.3s ease-in-out;
+}
+
+.header__link:hover {
+  color: black;
+  font-weight: 500;
+  transform: scale(1.05);
+}
+
+.header__menu-button {
+  background-color: #f6d5dc;
+  cursor: pointer;
+  border-radius: 25px;
+  border: 2px solid black;
+  width: 131px;
+  height: 45px;
+  font-weight: 600;
+  transition: transform 0.3s ease-in-out;
+}
+
+.header__menu-button:hover {
+  transform: scale(1.05);
 }
