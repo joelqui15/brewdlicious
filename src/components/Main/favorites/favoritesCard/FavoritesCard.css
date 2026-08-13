@@ -1,0 +1,18 @@
+.favorites-card {
+  max-width: 1220px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.favorites-card__image {
+  max-width: 420px;
+}
+
+.favorites-card__item {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  max-width: 420px;
+  padding: 32px;
+}

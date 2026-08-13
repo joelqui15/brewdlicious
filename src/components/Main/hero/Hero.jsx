@@ -12,12 +12,16 @@ function Hero() {
           </h1>
           <p className="hero__text">
             Freshly handcrafted coffee, energy drinks, smoothies, and breakfast
-            favorites—all served fast through our convenient drive-up coffee
-            hut.
+            favorites—all served fast
+            <br /> through our convenient drive-up coffee hut.
           </p>
-          <div className="buttons">
-            <button className="hero__menu-button">View Menu</button>
-            <button className="hero__direction-button">Get Directions</button>
+          <div className="hero__buttons-container">
+            <button className="hero__menu-button hero__buttons">
+              View Menu
+            </button>
+            <button className="hero__direction-button hero__buttons">
+              🗺️ Get Directions
+            </button>
           </div>
         </div>
       </section>

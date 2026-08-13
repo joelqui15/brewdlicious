@@ -1,5 +1,5 @@
 .hero {
-  background-image: url("../../images/brewdhero.png");
+  background-image: url("../../../images/brewdhero.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -42,4 +42,35 @@
 
 .hero__text {
   margin: 0;
+  text-align: center;
+  color: #fff;
+}
+
+.hero__buttons-container {
+  display: flex;
+  gap: 16px;
+}
+
+.hero__buttons {
+  cursor: pointer;
+  border-radius: 25px;
+  border: none;
+  padding: 14px 24px;
+
+  font-weight: 600;
+  white-space: nowrap;
+
+  transition: transform 0.3s ease-in-out;
+}
+
+.hero__buttons:hover {
+  transform: scale(1.05);
+}
+
+.hero__menu-button {
+  background-color: #f6d5dc;
+}
+
+.hero__direction-button {
+  background-color: #fff;
 }
