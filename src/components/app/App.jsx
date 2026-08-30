@@ -9,6 +9,8 @@ import "./App.css";
 
 function App() {
   function openPreview() {}
+
+  function closePreview() {}
   return (
     <>
       <div className="page">

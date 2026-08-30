@@ -20,6 +20,7 @@ function Favorites({ favoriteMenuItems }) {
             key={item.id}
             description={item.description}
             image={item.imageUrl}
+            price={item.price}
           />
         ))}
       </ul>
