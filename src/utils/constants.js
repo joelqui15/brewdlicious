@@ -26,3 +26,43 @@ export const favoriteMenuItems = [
       "Cold brew coffee infused with vanilla syrup, served over ice for a refreshing treat.",
   },
 ];
+
+export const menuCategories = [
+  {
+    id: 1,
+    title: "⋆☕︎ Hot Coffee",
+    description: "Classic lattes, cappuccinos, & bold craft pours.",
+    imageUrl: "",
+  },
+  {
+    id: 2,
+    title: "𖠚 Iced Coffee",
+    description: "Smooth cold brew, iced macchiatos, & cold foam lattes.",
+    imageUrl: "",
+  },
+  {
+    id: 3,
+    title: "⚡︎ Lotus Energy Drinks",
+    description: "Plant-based energy elixirs in crisp fruity infusions.",
+    imageUrl: "",
+  },
+  {
+    id: 4,
+    title: "❦ Smoothies",
+    description: "Rich real fruit blends to power up your morning run.",
+    imageUrl: "",
+  },
+  {
+    id: 5,
+    title: "☀︎ Breakfast",
+    description: "Hearty breakfast sandwiches, loaded biscuits, & wraps.",
+    imageUrl: "",
+  },
+  {
+    id: 6,
+    title: "✿ Pastries",
+    description:
+      "Delicious baked goods, from croissants to muffins, perfect with your coffee.",
+    imageUrl: "",
+  },
+];
