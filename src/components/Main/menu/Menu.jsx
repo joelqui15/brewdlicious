@@ -1,3 +1,5 @@
+import "./Menu.css";
+
 function Menu() {
   return (
     <div className="menu">
@@ -8,7 +10,9 @@ function Menu() {
           Discover a variety of delicious options to satisfy every craving.
         </p>
       </div>
-      <ul className="menu__categories"></ul>
+      <ul className="menu__categories"></ul>{" "}
+      {/* create 6 menu cards in a
+      seperate module */}
     </div>
   );
 }

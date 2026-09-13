@@ -1,12 +1,29 @@
 .header {
-  max-width: 1440px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #fff;
+  max-width: 1440px; /* Keeps the header from stretching too wide */
+  width: 100%;
+
+  margin: 0 auto; /* Centers the whole header on large screens */
   padding: 24px 80px;
+
+  box-sizing: border-box; /* Keeps padding inside the 1440px width */
+
+  display: flex; /* Creates left / center / right layout */
+  align-items: center;
+
+  background-color: #fff;
+
   font-family: "schibsted-grotesk", sans-serif;
   font-size: 14px;
+}
+
+.header__side {
+  flex: 1; /* Makes left and right sides equal widths */
+  display: flex;
+  align-items: center;
+}
+
+.header__side_right {
+  justify-content: flex-end; /* Pushes the button to the right edge */
 }
 
 .header__logo {
@@ -20,11 +37,12 @@
 }
 
 .header__link {
-  list-style: none;
   text-decoration: none;
   color: #6b6462;
-  scroll-behavior: smooth;
-  transition: transform 0.3s ease-in-out;
+
+  transition:
+    transform 0.3s ease-in-out,
+    color 0.3s ease-in-out; /* Smooths hover changes */
 }
 
 .header__link:hover {
@@ -35,12 +53,18 @@
 
 .header__menu-button {
   background-color: #f6d5dc;
+
   cursor: pointer;
+
+  border: 1px solid #6b6462;
   border-radius: 25px;
 
-  width: 131px;
-  height: 45px;
+  padding: 14px 28px; /* Lets the button size itself around the text */
+
+  font-family: inherit;
+  font-size: 14px;
   font-weight: 600;
+
   transition: transform 0.3s ease-in-out;
 }
 

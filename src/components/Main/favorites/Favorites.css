@@ -1,4 +1,8 @@
 .favorites {
+  width: 100%; /* Lets the whole section shrink with the viewport */
+
+  margin: 0 auto; /* Centers the whole section */
+  box-sizing: border-box;
   background-color: #faf6f0;
   display: flex;
   align-items: center;
