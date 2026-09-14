@@ -1,6 +1,7 @@
 import "./Menu.css";
+import MenuCategories from "./menuCategories/MenuCategories.jsx";
 
-function Menu() {
+function Menu({ menuCategories }) {
   return (
     <div className="menu">
       <div className="menu__header">
@@ -10,9 +11,16 @@ function Menu() {
           Discover a variety of delicious options to satisfy every craving.
         </p>
       </div>
-      <ul className="menu__categories"></ul>{" "}
-      {/* create 6 menu cards in a
-      seperate module */}
+      <ul className="menu__categories">
+        {menuCategories.map((category) => (
+          <MenuCategories
+            key={category.id}
+            title={category.title}
+            description={category.description}
+            imageUrl={category.imageUrl}
+          />
+        ))}
+      </ul>
     </div>
   );
 }
